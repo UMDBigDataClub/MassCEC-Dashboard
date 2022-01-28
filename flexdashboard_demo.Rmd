@@ -1,0 +1,271 @@
+---
+title: "MassCEC Offshore Wind Employment Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    theme: cerulean
+---
+
+```{r setup, include=FALSE}
+'
+MIT License
+
+Copyright (c) 2022 Salvador Balkus
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+'
+
+library(tidyverse)
+library(rjson)
+library(leaflet)
+library(maps)
+library(sp)
+library(tidycensus)
+library(blsAPI)
+library(RColorBrewer) # Needed for choropleth mapping
+library(htmlwidgets)
+
+
+options(tigris_use_cache = TRUE)
+
+### Occupation Definitions ###
+
+jobs <- read_tsv(r"{C:\Users\salba\Documents\Big Data Club\MassCEC\occupations.txt}")
+jobs$SOC <- as.character(jobs$SOC)
+
+### Getting Metropolitan Area Data from Census ###
+# Usage: https://walker-data.com/tidycensus/articles/basic-usage.html
+
+census_api_key("562dd5fe9f53e50272d4b3f4aedf48ffde05d9e8")
+# Note that the BLS reports data for NECTAS in New England instead of normal Metropolitan Areas
+NE_areas <- get_decennial(geography = "new england city and town area", variables = "METDIV", year = 2020, geometry = TRUE)
+
+# The function below is used to generate a map for a single component for a single category
+
+generate_employment_map <- function(category, component, jobs, NE_areas){
+
+  ### Getting BLS Data ###
+  # See how to construct the code here: https://download.bls.gov/pub/time.series/oe/
+  survey <- 'OE'
+  seasonal <- 'U'
+  areatype <- 'M'
+  industry <- '000000'
+  
+  all_occupations <- list()
+  jobs_filter <- jobs %>% filter(Category == category) %>% filter(Component == component)
+  
+  
+  for(occupation in jobs_filter$SOC){
+  
+    # Met Areas
+    met_areas <- lapply(as.list(NE_areas$GEOID), function(x){paste("00",x,sep="")})
+    
+    ids_employ <- lapply(met_areas, function(area){as.character(paste(survey, seasonal, areatype, area, industry, occupation, '01',sep=""))})
+    ids_locquotient <- lapply(met_areas, function(area){as.character(paste(survey, seasonal, areatype, area, industry, occupation, '17',sep=""))})
+    
+    # Specify which list of series you want to call
+    id_list <- c(ids_locquotient)
+    
+    payload <- list(
+      'seriesid'=id_list,
+      'startyear'=2020,
+      'endyear'=2020,
+      'registrationkey'='9531f28a410d46e4ab0550d43a005aa4')
+    
+    response <- blsAPI(payload)
+    json <- fromJSON(response)
+    
+    # Turn all returned values into one list
+    bls_values <- lapply(json$Results$series, function(x){
+      if(length(x$data) != 0 && x$data[[1]]$value != "-" ){return(as.numeric(x$data[[1]]$value))}
+      else{return(NA)}
+      
+      })
+    
+    
+    bls_data <- tibble(GEOID = NE_areas$GEOID, code = unlist(met_areas), estimate = unlist(bls_values)) %>% filter(!is.na(estimate))
+    
+    ### Merge the Data ###
+    
+    areas <- merge(NE_areas, bls_data, by="GEOID")
+    all_occupations[[occupation]] <- areas
+  }
+  
+  ### Setting Up Map with Palette and Legend ###
+  
+  # PROBLEM Data is derived from the data frame put into the leaflet command...
+  
+  m <- leaflet(data = areas) %>% addTiles()
+  titles <- jobs_filter$Title
+  
+  for(job_title in titles){
+    # Select the occupation that we want. Let's use Industrial Engineer as an example
+    occ <- unique((jobs_filter %>% filter(Title == job_title))$SOC)
+    new_areas <- all_occupations[[occ]]
+    
+    # Set up the color palette
+    pal <- colorNumeric(
+      palette = "Blues",
+      domain = new_areas$estimate)
+    
+    # Prepare the text for tooltips 
+    labels <- paste(new_areas$NAME,"<br/>", "Location Quotient: ", new_areas$estimate, "<br/>",
+                    sep="") %>% lapply(htmltools::HTML)
+    
+    ### Create the map ###
+    m <- m %>%
+      addPolygons(data = new_areas, fillOpacity = 0.8, fillColor = ~pal(estimate), color = "gray", dashArray = "3", weight = 2, opacity = 1, highlightOptions = highlightOptions(
+        weight = 5,
+        color = "white",
+        dashArray = "",
+        fillOpacity = 0.7,
+        bringToFront = TRUE),
+        label = labels,
+        labelOptions = labelOptions(
+          style = list("font-weight" = "normal", padding = "3px 8px"),
+          textsize = "15px",
+          direction = "auto"),
+        group = job_title
+      ) 
+  }
+  
+  m <- m %>%
+    addLegend(pal = pal, values = ~estimate, opacity = 0.7, title = NULL, position = "bottomright", group = job_title) %>% 
+    addLayersControl(
+    baseGroups = titles,
+    options = layersControlOptions(collapsed = FALSE)
+  )
+  
+  return(m)
+}
+```
+
+
+Towers
+=======================================
+
+Column {.tabset data-width=650}
+-----------------------------------------------------------------------
+
+### General
+
+```{r}
+generate_employment_map("Towers", "General", jobs, NE_areas)
+
+```
+
+### Tower Internals
+
+```{r}
+
+generate_employment_map("Towers", "Tower Internals: Stairway, Ladder, Door, Platform (concrete and steel rebar), Railing, Cables", jobs, NE_areas)
+
+```
+
+
+### Cables Only
+
+```{r}
+
+generate_employment_map("Towers", "Specific for Cables only", jobs, NE_areas)
+
+```
+
+### Coatings
+
+```{r}
+
+generate_employment_map("Towers", "Coatings", jobs, NE_areas)
+
+```
+
+### Tower Segments
+
+```{r}
+
+generate_employment_map("Towers", "Steel Tower Segments", jobs, NE_areas)
+
+```
+
+### Lighting
+
+```{r}
+
+generate_employment_map("Towers", "Lighting", jobs, NE_areas)
+
+```
+
+### Pumps & Equipment
+
+```{r}
+
+generate_employment_map("Towers", "Pumps/Equipment", jobs, NE_areas)
+
+```
+
+### Flange & Forgings
+
+```{r}
+
+generate_employment_map("Towers", "Flange/Forgings", jobs, NE_areas)
+
+```
+
+### Yaw System
+
+```{r}
+
+generate_employment_map("Towers", "Yaw System (Bearings, Brake (discs), Motor, Drive (Steel))", jobs, NE_areas)
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Welcome to the MassCEC Offshore Wind Employment Dashboard! 
+
+The map on the left depicts the location quotient for individual occupations in the offshore wind sector across New England. Location quotient measures the concentration of workers in a given occupation compared to the nation as a whole. For example, if an area has a location quotient of 2 for industrial engineers, then that area employs two times as many engineers per capita as the United States does as a whole. Each tab lists the occupations necessary to manufacture specific wind farm components.
+
+Click between tabs to explore different tower components and associated occupations!
+
+
+
+
+
+
+© 2022 Salvador Balkus
+
+Blades
+===================================
+
+Foundation
+===================================
+
+Submarine Cables
+===================================
+
+Nacelle
+===================================
+
+Substations
+===================================
+
+Vessels
+===================================
