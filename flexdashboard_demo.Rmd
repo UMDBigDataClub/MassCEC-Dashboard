@@ -53,7 +53,7 @@ jobs$SOC <- as.character(jobs$SOC)
 ### Getting Metropolitan Area Data from Census ###
 # Usage: https://walker-data.com/tidycensus/articles/basic-usage.html
 
-census_api_key("562dd5fe9f53e50272d4b3f4aedf48ffde05d9e8")
+census_api_key("FILL IN YOUR API KEY HERE")
 # Note that the BLS reports data for NECTAS in New England instead of normal Metropolitan Areas
 NE_areas <- get_decennial(geography = "new england city and town area", variables = "METDIV", year = 2020, geometry = TRUE)
 
@@ -87,7 +87,7 @@ generate_employment_map <- function(category, component, jobs, NE_areas){
       'seriesid'=id_list,
       'startyear'=2020,
       'endyear'=2020,
-      'registrationkey'='9531f28a410d46e4ab0550d43a005aa4')
+      'registrationkey'='FILL IN YOUR API KEY HERE')
     
     response <- blsAPI(payload)
     json <- fromJSON(response)
