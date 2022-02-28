@@ -1,56 +1,82 @@
-﻿Category,Component,SOC,Title,Occupation,
-Towers,General,113051,Industrial Production Managers,Quality Control Manager,
-Towers,General,519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Non Destructive Test (NDT) Inspector and Quality Control Inspector,
-Towers,General,172112,Industrial Engineer,Manufacturing Managers /Manufacturing Engineer,
-Towers,General,514191,"Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",Metal and Plastic Setters / Surface Engineer,
-Towers,General,514192,"Layout Workers, Metal and Plastic",Metal and Plastic Layers / Tower Design Engineer,
-Towers,General,514199,"Metal Workers and Plastic Workers, All Other",Structural Tower Engineer,
-Towers,General,537021,Crane and Tower Operators,Crane Operator and Crane Engineer / Heavy Lift Specialist / Senior Lifting Engineer,
-Towers,General,499096,Riggers,Rigger / Rigging Engineer,
-Towers,"Tower Internals: Stairway, Ladder, Door, Platform (concrete and steel rebar), Railing, Cables",472221,Structural Iron and Steel Workers,Steel Worker / Strucutral Engineer,
-Towers,"Tower Internals: Stairway, Ladder, Door, Platform (concrete and steel rebar), Railing, Cables",512041,Structural Metal Fabricators and Fitters,Structural Engineer / Offshore Tower Internals Solution Engineer,
-Towers,"Tower Internals: Stairway, Ladder, Door, Platform (concrete and steel rebar), Railing, Cables",519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Non Destructive Test (NDT) Inspector,
-Towers,"Tower Internals: Stairway, Ladder, Door, Platform (concrete and steel rebar), Railing, Cables",514122,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Welding Machinist / Welding Engineer,
-Towers,"Tower Internals: Stairway, Ladder, Door, Platform (concrete and steel rebar), Railing, Cables",514193,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",Plater,
-Towers,"Tower Internals: Stairway, Ladder, Door, Platform (concrete and steel rebar), Railing, Cables",113051,Industrial Production Managers,Quality Control Manager,
-Towers,Specific for Cables only,514021,"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",Cable Engineer,
-Towers,Specific for Cables only,519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Non Destructive Test (NDT) Inspector / Cable Test Engineer,
-Towers,Coatings,172131,Materials Engineer,Composite Materials Engineer,
-Towers,Coatings,519124,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",Specialist coating technician (applier),
-Towers,Coatings,514193,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",Blasting technician (applier),
-Towers,Steel Tower Segments,512041,Structural Metal Fabricators and Fitters,Structural Tower Engineer,
-Towers,Steel Tower Segments,472221,Structural Iron and Steel Workers,Steel Worker,
-Towers,Steel Tower Segments,514012,"Computer Numerically Controlled Machine Tool Programmers, Metal and Plastic",CNC (computer numerical control) Machinist,
-Towers,Steel Tower Segments,514122,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Welding Machinist / Welding Engineer,
-Towers,Steel Tower Segments,514023,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",Tower Rolling Machinist,
-Towers,Steel Tower Segments,514033,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Metal Grinder / Surface Engineer,
-Towers,Steel Tower Segments,514035,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",Milling Machinist,
-Towers,Steel Tower Segments,519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Non Destructive Test (NDT) Inspector,
-Towers,Steel Tower Segments,514051,Metal-Refining Furnace Operators and Tenders,Metal-Refiners,
-Towers,Steel Tower Segments,113051,Industrial Production Managers,Quality Control Manager,
-Towers,Lighting,172071,Electrical Engineer,Electrical Lead Engineer (LV) – Tower Electricals / Electrical Engineer,
-Towers,Lighting,173012,Electrical and Electronics Drafters,Electrical support,
-Towers,Lighting,173023,Electrical and Electronic Engineering Technologists and Technicians,Electrical support,
-Towers,Lighting,512028,"Electrical, Electronic, and Electromechanical Assemblers, Except Coil Winders, Tapers, and Finishers",Assemblers,
-Towers,Lighting,472111,Electrician,Electrician,
-Towers,Pumps/Equipment,172141,Mechanical Engineers,Hydrualics Engineer,
-Towers,Pumps/Equipment,499044,Millrights,Millrights,
-Towers,Flange/Forgings,512041,Structural Metal Fabricators and Fitters,Structural Engineer,
-Towers,Flange/Forgings,514191,"Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",Metal and Plastic Setters,
-Towers,Flange/Forgings,514012,"Computer Numerically Controlled Machine Tool Programmers, Metal and Plastic",CNC (computer numerical control) Machinist,
-Towers,Flange/Forgings,514122,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Welding Machinist / Welding Engineer,
-Towers,Flange/Forgings,519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Non Destructive Test (NDT) Inspector and Quality Control Inspector,
-Towers,Flange/Forgings,514033,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Metal Grinder / Surface Engineer,
-Towers,Flange/Forgings,514032,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Driller,
-Towers,Flange/Forgings,514035,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",Milling Machinist,
-Towers,"Yaw System (Bearings, Brake (discs), Motor, Drive (Steel)) ",512041,Structural Metal Fabricators and Fitters,Structural Engineer / Mechanical Component Engineer,
-Towers,"Yaw System (Bearings, Brake (discs), Motor, Drive (Steel)) ",514191,"Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",Metal and Plastic Setters,
-Towers,"Yaw System (Bearings, Brake (discs), Motor, Drive (Steel)) ",514012,"Computer Numerically Controlled Machine Tool Programmers, Metal and Plastic",CNC (computer numerical control) Machinist,
-Towers,"Yaw System (Bearings, Brake (discs), Motor, Drive (Steel)) ",514122,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Welding Machinist / Welding Engineer,
-Towers,"Yaw System (Bearings, Brake (discs), Motor, Drive (Steel)) ",519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Non Destructive Test (NDT) Inspector and Quality Control Inspector,
-Towers,"Yaw System (Bearings, Brake (discs), Motor, Drive (Steel)) ",514033,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Metal Grinder / Surface Engineer,
-Towers,"Yaw System (Bearings, Brake (discs), Motor, Drive (Steel)) ",514032,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Driller,
-Towers,"Yaw System (Bearings, Brake (discs), Motor, Drive (Steel)) ",514035,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",Milling Machinist,
-Towers,"Yaw System (Bearings, Brake (discs), Motor, Drive (Steel)) ",172071,Electrical Engineer,Electrical Engineer / Yaw System Engineer / Motor Component Engineer,
-Towers,"Yaw System (Bearings, Brake (discs), Motor, Drive (Steel)) ",173023,Electrical and Electronic Engineering Technologists and Technicians,Electrical Control System Engineering Assistant / Yaw System Engineering Assistant,
-Towers,"Yaw System (Bearings, Brake (discs), Motor, Drive (Steel)) ",514072,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",Steel Workers / Bearing Engineer,
+﻿Category,Component,SOC,Title,Occupation
+Towers,General,113051,Industrial Production Managers,Quality Control Manager
+Towers,General,519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Non Destructive Test (NDT) Inspector and Quality Control Inspector
+Towers,General,172112,Industrial Engineer,Manufacturing Managers /Manufacturing Engineer
+Towers,General,514191,"Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",Metal and Plastic Setters / Surface Engineer
+Towers,General,514192,"Layout Workers, Metal and Plastic",Metal and Plastic Layers / Tower Design Engineer
+Towers,General,514199,"Metal Workers and Plastic Workers, All Other",Structural Tower Engineer
+Towers,General,537021,Crane and Tower Operators,Crane Operator and Crane Engineer / Heavy Lift Specialist / Senior Lifting Engineer
+Towers,General,499096,Riggers,Rigger / Rigging Engineer
+Towers,"Tower Internals: Stairway, Ladder, Door, Platform (concrete and steel rebar), Railing, Cables",472221,Structural Iron and Steel Workers,Steel Worker / Strucutral Engineer
+Towers,"Tower Internals: Stairway, Ladder, Door, Platform (concrete and steel rebar), Railing, Cables",512041,Structural Metal Fabricators and Fitters,Structural Engineer / Offshore Tower Internals Solution Engineer
+Towers,"Tower Internals: Stairway, Ladder, Door, Platform (concrete and steel rebar), Railing, Cables",519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Non Destructive Test (NDT) Inspector
+Towers,"Tower Internals: Stairway, Ladder, Door, Platform (concrete and steel rebar), Railing, Cables",514122,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Welding Machinist / Welding Engineer
+Towers,"Tower Internals: Stairway, Ladder, Door, Platform (concrete and steel rebar), Railing, Cables",514193,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",Plater
+Towers,"Tower Internals: Stairway, Ladder, Door, Platform (concrete and steel rebar), Railing, Cables",113051,Industrial Production Managers,Quality Control Manager
+Towers,Specific for Cables only,514021,"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",Cable Engineer
+Towers,Specific for Cables only,519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Non Destructive Test (NDT) Inspector / Cable Test Engineer
+Towers,Coatings,172131,Materials Engineer,Composite Materials Engineer
+Towers,Coatings,519124,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",Specialist coating technician (applier)
+Towers,Coatings,514193,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",Blasting technician (applier)
+Towers,Steel Tower Segments,512041,Structural Metal Fabricators and Fitters,Structural Tower Engineer
+Towers,Steel Tower Segments,472221,Structural Iron and Steel Workers,Steel Worker
+Towers,Steel Tower Segments,514012,"Computer Numerically Controlled Machine Tool Programmers, Metal and Plastic",CNC (computer numerical control) Machinist
+Towers,Steel Tower Segments,514122,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Welding Machinist / Welding Engineer
+Towers,Steel Tower Segments,514023,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",Tower Rolling Machinist
+Towers,Steel Tower Segments,514033,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Metal Grinder / Surface Engineer
+Towers,Steel Tower Segments,514035,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",Milling Machinist
+Towers,Steel Tower Segments,519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Non Destructive Test (NDT) Inspector
+Towers,Steel Tower Segments,514051,Metal-Refining Furnace Operators and Tenders,Metal-Refiners
+Towers,Steel Tower Segments,113051,Industrial Production Managers,Quality Control Manager
+Towers,Lighting,172071,Electrical Engineer,Electrical Lead Engineer (LV) – Tower Electricals / Electrical Engineer
+Towers,Lighting,173012,Electrical and Electronics Drafters,Electrical support
+Towers,Lighting,173023,Electrical and Electronic Engineering Technologists and Technicians,Electrical support
+Towers,Lighting,512028,"Electrical, Electronic, and Electromechanical Assemblers, Except Coil Winders, Tapers, and Finishers",Assemblers
+Towers,Lighting,472111,Electrician,Electrician
+Towers,Pumps/Equipment,172141,Mechanical Engineers,Hydrualics Engineer
+Towers,Pumps/Equipment,499044,Millrights,Millrights
+Towers,Flange/Forgings,512041,Structural Metal Fabricators and Fitters,Structural Engineer
+Towers,Flange/Forgings,514191,"Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",Metal and Plastic Setters
+Towers,Flange/Forgings,514012,"Computer Numerically Controlled Machine Tool Programmers, Metal and Plastic",CNC (computer numerical control) Machinist
+Towers,Flange/Forgings,514122,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Welding Machinist / Welding Engineer
+Towers,Flange/Forgings,519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Non Destructive Test (NDT) Inspector and Quality Control Inspector
+Towers,Flange/Forgings,514033,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Metal Grinder / Surface Engineer
+Towers,Flange/Forgings,514032,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Driller
+Towers,Flange/Forgings,514035,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",Milling Machinist
+Towers,"Yaw System (Bearings, Brake (discs), Motor, Drive (Steel)) ",512041,Structural Metal Fabricators and Fitters,Structural Engineer / Mechanical Component Engineer
+Towers,"Yaw System (Bearings, Brake (discs), Motor, Drive (Steel)) ",514191,"Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",Metal and Plastic Setters
+Towers,"Yaw System (Bearings, Brake (discs), Motor, Drive (Steel)) ",514012,"Computer Numerically Controlled Machine Tool Programmers, Metal and Plastic",CNC (computer numerical control) Machinist
+Towers,"Yaw System (Bearings, Brake (discs), Motor, Drive (Steel)) ",514122,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Welding Machinist / Welding Engineer
+Towers,"Yaw System (Bearings, Brake (discs), Motor, Drive (Steel)) ",519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Non Destructive Test (NDT) Inspector and Quality Control Inspector
+Towers,"Yaw System (Bearings, Brake (discs), Motor, Drive (Steel)) ",514033,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Metal Grinder / Surface Engineer
+Towers,"Yaw System (Bearings, Brake (discs), Motor, Drive (Steel)) ",514032,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Driller
+Towers,"Yaw System (Bearings, Brake (discs), Motor, Drive (Steel)) ",514035,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",Milling Machinist
+Towers,"Yaw System (Bearings, Brake (discs), Motor, Drive (Steel)) ",172071,Electrical Engineer,Electrical Engineer / Yaw System Engineer / Motor Component Engineer
+Towers,"Yaw System (Bearings, Brake (discs), Motor, Drive (Steel)) ",173023,Electrical and Electronic Engineering Technologists and Technicians,Electrical Control System Engineering Assistant / Yaw System Engineering Assistant
+Towers,"Yaw System (Bearings, Brake (discs), Motor, Drive (Steel)) ",514072,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",Steel Workers / Bearing Engineer
+Blades,Turbine Operation,172011,Aerospace Engineers,Turbine Load and Validation Engineer / Blade Design Loads Engineer
+Blades,Turbine Operation,173021,Aerospace Engineering and Operations Technologists and Technicians,Aerospace Engineering and Operations Technologists and Technicians
+Blades,Turbine Operation,172141,Mechanical Engineers,Mechanical Engineer
+Blades,Turbine Operation,173027,Mechanical Engineering Technologists and Technicians,Mechanical Support
+Blades,Turbine Operation,173013,Mechanical Drafter,Drafter
+Blades,Turbine Operation,512031,Engine and Other Machine Assemblers,Assemblers
+Blades,Turbine Operation,151256,Software Developers and Software Quality Assurance Analysts and Testers,Software developer for Wind Turbine Control System
+Blades,Blade Production,172131,Materials Engineer,Composite Materials Engineer / Blade Engineer / Structural Blade Design Engineer
+Blades,Blade Production,514072,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",Blade Core Engineer
+Blades,Blade Production,512051,Fiberglass Laminators and Fabricators,Fiberglass Technician/Mold Worker
+Blades,Blade Production,17302908,Photonics Technician,Laser Operator
+Blades,Blade Production,514021,"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",Thermoplastics Engineer
+Blades,Blade Production,512051,Fiberglass Laminators and Fabricators,Fiberglass Technician/Mold Worker / Blade Shell Engineer / Blade Engineer
+Blades,Blade Production,519124,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",Specialist coating technician (applier)
+Blades,Blade Production,519123,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",Blasting technician (applier)
+Blades,Pitch Bearings,514072,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",Steel Workers / Bearing Engineer
+Blades,Pitch Bearings,514012,"Computer Numerically Controlled Machine Tool Programmers, Metal and Plastic",CNC (computer numerical control) Machinist
+Blades,Pitch Bearings,514122,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Welding Machinist / Welding Engineer
+Blades,Pitch Bearings,514033,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Metal Grinder / Surface Engineer
+Blades,Pitch Bearings,514032,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Driller
+Blades,Pitch Bearings,514035,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",Milling Machinist
+Blades,General,511011,First-Line Supervisors of Production and Operating Workers,Blade Production Manager
+Blades,General,172112,Industrial Engineer,Manufacturing Managers
+Blades,General,537021,Crane and Tower Operators,Crane Operator and Crane Engineer / Heavy Lift Specialist / Senior Lifting Engineer
+Blades,General,519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Non Destructive Test (NDT) Inspector and Quality Control Inspector
+Blades,General,113051,Industrial Production Managers,Quality Control Manager
