@@ -80,3 +80,45 @@ Blades,General,172112,Industrial Engineer,Manufacturing Managers
 Blades,General,537021,Crane and Tower Operators,Crane Operator and Crane Engineer / Heavy Lift Specialist / Senior Lifting Engineer
 Blades,General,519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Non Destructive Test (NDT) Inspector and Quality Control Inspector
 Blades,General,113051,Industrial Production Managers,Quality Control Manager
+Foundation,General: All Foundations,511011,First-Line Supervisors of Production and Operating Workers,Production Manager
+Foundation,General: All Foundations,113051,Industrial Production Managers,Manufacturing Manager
+Foundation,General: All Foundations,172112,Industrial Engineer,Manufacturing Managers
+Foundation,General: All Foundations,537021,Crane and Tower Operators,Crane Operator and Crane Engineer / Heavy Lift Specialist / Senior Lifting Engineer
+Foundation,"Jacket ( Steel Lattice, Transition section, Legs, Braces, Nodes, Pins, Integrated upper deck, Heavy wall sections)",173013,Mechanical Drafter,Drafter
+Foundation,"Jacket ( Steel Lattice, Transition section, Legs, Braces, Nodes, Pins, Integrated upper deck, Heavy wall sections)",512041,Structural Metal Fabricators and Fitters,Strucutural metal fabricators
+Foundation,"Jacket ( Steel Lattice, Transition section, Legs, Braces, Nodes, Pins, Integrated upper deck, Heavy wall sections)",514031,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",Metal Cutters
+Foundation,"Jacket ( Steel Lattice, Transition section, Legs, Braces, Nodes, Pins, Integrated upper deck, Heavy wall sections)",514035,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",Milling Machinist
+Foundation,"Jacket ( Steel Lattice, Transition section, Legs, Braces, Nodes, Pins, Integrated upper deck, Heavy wall sections)",514023,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",Rolling Machine Setters
+Foundation,"Jacket ( Steel Lattice, Transition section, Legs, Braces, Nodes, Pins, Integrated upper deck, Heavy wall sections)",514121,"Welders, Cutters, Solderers, and Brazers",Welder
+Foundation,"Jacket ( Steel Lattice, Transition section, Legs, Braces, Nodes, Pins, Integrated upper deck, Heavy wall sections)",514122,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Welding Machinist / Welding Engineer
+Foundation,"Jacket ( Steel Lattice, Transition section, Legs, Braces, Nodes, Pins, Integrated upper deck, Heavy wall sections)",519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Ultrasonic Welding Tester
+Foundation,"Jacket ( Steel Lattice, Transition section, Legs, Braces, Nodes, Pins, Integrated upper deck, Heavy wall sections)",172131,Materials Engineer,Composite Materials Engineer
+Foundation,"Jacket ( Steel Lattice, Transition section, Legs, Braces, Nodes, Pins, Integrated upper deck, Heavy wall sections)",519124,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",Specialist coating technician (applier)
+Foundation,"Jacket ( Steel Lattice, Transition section, Legs, Braces, Nodes, Pins, Integrated upper deck, Heavy wall sections)",514193,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",Blasting technician (applier)
+Foundation,"Jacket ( Steel Lattice, Transition section, Legs, Braces, Nodes, Pins, Integrated upper deck, Heavy wall sections)",113051,Industrial Production Managers,Manufacturing Manager
+Foundation,Monopile,173013,Mechanical Drafter,Drafter
+Foundation,Monopile,512041,Structural Metal Fabricators and Fitters,Strucutural metal fabricators
+Foundation,Monopile,472221,Structural Iron and Steel Workers,Steel Worker
+Foundation,Monopile,514035,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",Milling Machinist
+Foundation,Monopile,514023,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",Rolling Machine Setters
+Foundation,Monopile,514122,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Welding Machinist / Welding Engineer
+Foundation,Monopile,514121,"Welders, Cutters, Solderers, and Brazers",Welder
+Foundation,Monopile,519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Ultrasonic Welding Tester
+Foundation,Monopile,172131,Materials Engineer,Composite Materials Engineer
+Foundation,Monopile,519124,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",Specialist coating technician (applier)
+Foundation,Monopile,514193,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",Blasting technician (applier)
+Foundation,Monopile,113051,Industrial Production Managers,Manufacturing Manager
+Foundation,Gravity Based,173013,Mechanical Drafter,Drafter
+Foundation,Gravity Based,512041,Structural Metal Fabricators and Fitters,Strucutural metal fabricators
+Foundation,Gravity Based,472221,Structural Iron and Steel Workers,Steel Worker
+Foundation,Gravity Based,472171,Reinforcing Iron and Rebar Workers,Concrete pourer
+Foundation,Gravity Based,472051,Cement Masons and Concrete Finishers,Concrete pourer
+Foundation,Gravity Based,514035,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",Milling Machinist
+Foundation,Gravity Based,514023,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",Rolling Machine Setters
+Foundation,Gravity Based,514122,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Welding Machinist / Welding Engineer
+Foundation,Gravity Based,514121,"Welders, Cutters, Solderers, and Brazers",Welder
+Foundation,Gravity Based,519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Ultrasonic Welding Tester
+Foundation,Gravity Based,172131,Materials Engineer,Composite Materials Engineer
+Foundation,Gravity Based,519124,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",Specialist coating technician (applier)
+Foundation,Gravity Based,514193,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",Blasting technician (applier)
+Foundation,Gravity Based,113051,Industrial Production Managers,Manufacturing Manager
