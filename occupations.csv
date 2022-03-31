@@ -80,10 +80,10 @@ Blades,General,172112,Industrial Engineer,Manufacturing Managers
 Blades,General,537021,Crane and Tower Operators,Crane Operator and Crane Engineer / Heavy Lift Specialist / Senior Lifting Engineer
 Blades,General,519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Non Destructive Test (NDT) Inspector and Quality Control Inspector
 Blades,General,113051,Industrial Production Managers,Quality Control Manager
-Foundation,General: All Foundations,511011,First-Line Supervisors of Production and Operating Workers,Production Manager
-Foundation,General: All Foundations,113051,Industrial Production Managers,Manufacturing Manager
-Foundation,General: All Foundations,172112,Industrial Engineer,Manufacturing Managers
-Foundation,General: All Foundations,537021,Crane and Tower Operators,Crane Operator and Crane Engineer / Heavy Lift Specialist / Senior Lifting Engineer
+Foundation,General,511011,First-Line Supervisors of Production and Operating Workers,Production Manager
+Foundation,General,113051,Industrial Production Managers,Manufacturing Manager
+Foundation,General,172112,Industrial Engineer,Manufacturing Managers
+Foundation,General,537021,Crane and Tower Operators,Crane Operator and Crane Engineer / Heavy Lift Specialist / Senior Lifting Engineer
 Foundation,"Jacket ( Steel Lattice, Transition section, Legs, Braces, Nodes, Pins, Integrated upper deck, Heavy wall sections)",173013,Mechanical Drafter,Drafter
 Foundation,"Jacket ( Steel Lattice, Transition section, Legs, Braces, Nodes, Pins, Integrated upper deck, Heavy wall sections)",512041,Structural Metal Fabricators and Fitters,Strucutural metal fabricators
 Foundation,"Jacket ( Steel Lattice, Transition section, Legs, Braces, Nodes, Pins, Integrated upper deck, Heavy wall sections)",514031,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",Metal Cutters
@@ -122,3 +122,29 @@ Foundation,Gravity Based,172131,Materials Engineer,Composite Materials Engineer
 Foundation,Gravity Based,519124,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",Specialist coating technician (applier)
 Foundation,Gravity Based,514193,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",Blasting technician (applier)
 Foundation,Gravity Based,113051,Industrial Production Managers,Manufacturing Manager
+Submarine Cables,General,173019,"Drafters, All Other",Cable Design Drafter/Engineer
+Submarine Cables,General,511011,First-Line Supervisors of Production and Operating Workers,Cable Production Manager
+Submarine Cables,General,113051,Industrial Production Managers,Quality Control Manager
+Submarine Cables,General,173026,Industrial Engineering Technologists and Technicians,Quality Control Assistant
+Submarine Cables,General,519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Cable Testing Inspector
+Submarine Cables,General,514021,"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",Cable Machine Operator
+Submarine Cables,General,514031,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",Cable Splicer
+Submarine Cables,General,537021,Crane and Tower Operators,Crane Operator and Crane Engineer / Heavy Lift Specialist / Senior Lifting Engineer
+Submarine Cables,Conductor,172071,Electrical Engineer,Cable Engineer / Electrical Engineer / Project Engineer: Array/Export Cable
+Submarine Cables,Conductor,173023,Electrical and Electronic Engineering Technologists and Technicians,Electrical Technician / Cable Technician
+Submarine Cables,Conductor,512021,"Coil Winders, Tapers, and Finishers",Coil Worker / Coil Design Engineer
+Submarine Cables,Insulation Layer,172131,Materials Engineer,Composite Materials Engineer
+Submarine Cables,Insulation Layer,514072,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",Insulating Machine Operator
+Submarine Cables,"
+Armor Layer",472221,Structural Iron and Steel Workers,Steel Worker / Cable Engineer
+Submarine Cables,"
+Armor Layer",514031,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",Metal Cutters
+Submarine Cables,"
+Armor Layer",514035,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",Milling Machinist / Cable Engineer
+Submarine Cables,"
+Armor Layer",514023,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",Rolling Machine Setters / Cable Roller
+Submarine Cables,"
+Armor Layer",514121,"Welders, Cutters, Solderers, and Brazers",Welder
+Submarine Cables,Outer Layer,514021,"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",Cable Machine Operator
+Submarine Cables,Outer Layer,172131,Materials Engineer,Composite Materials Engineer
+Submarine Cables,Outer Layer,172041,Chemical Engineers,Cable Cover Engineer

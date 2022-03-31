@@ -297,7 +297,7 @@ Column {data-width=350}
 
 The map on the left depicts the location quotient for individual occupations in the offshore wind sector across New England. Location quotient measures the concentration of workers in a given occupation compared to the nation as a whole. For example, if an area has a location quotient of 2 for industrial engineers, then that area employs two times as many engineers per capita as the United States does as a whole. Each tab lists the occupations necessary to manufacture specific wind farm components.
 
-Click between tabs to explore different tower components and associated occupations!
+Click between tabs to explore different blade components and associated occupations!
 
 
 
@@ -309,8 +309,118 @@ Click between tabs to explore different tower components and associated occupati
 Foundation
 ===================================
 
+Column {.tabset data-width=650}
+-----------------------------------------------------------------------
+
+### General
+
+```{r}
+generate_employment_map("Foundation", "General", jobs, NE_areas)
+
+```
+
+### Jacket
+
+```{r}
+
+generate_employment_map("Foundation", "Jacket ( Steel Lattice, Transition section, Legs, Braces, Nodes, Pins, Integrated upper deck, Heavy wall sections)", jobs, NE_areas)
+
+```
+
+
+### Monopile
+
+```{r}
+
+generate_employment_map("Foundation", "Monopile", jobs, NE_areas)
+
+```
+
+### Gravity Based
+
+```{r}
+
+generate_employment_map("Foundation", "Gravity Based", jobs, NE_areas)
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Welcome to the MassCEC Offshore Wind Employment Dashboard! 
+
+The map on the left depicts the location quotient for individual occupations in the offshore wind sector across New England. Location quotient measures the concentration of workers in a given occupation compared to the nation as a whole. For example, if an area has a location quotient of 2 for industrial engineers, then that area employs two times as many engineers per capita as the United States does as a whole. Each tab lists the occupations necessary to manufacture specific wind farm components.
+
+Click between tabs to explore different foundation components and associated occupations!
+
+
+
+
+
+
+© 2022 Salvador Balkus
+
 Submarine Cables
 ===================================
+
+Column {.tabset data-width=650}
+-----------------------------------------------------------------------
+
+### General
+
+```{r}
+generate_employment_map("Submarine Cables", "General", jobs, NE_areas)
+
+```
+
+### Conductor
+
+```{r}
+
+generate_employment_map("Submarine Cables", "Conductor", jobs, NE_areas)
+
+```
+
+
+### Insulation Layer
+
+```{r}
+
+generate_employment_map("Submarine Cables", "Insulation Layer", jobs, NE_areas)
+
+```
+
+### Armor Layer
+
+```{r}
+
+generate_employment_map("Submarine Cables", "Armor Layer", jobs, NE_areas)
+
+```
+
+### Outer Layer
+
+```{r}
+
+generate_employment_map("Submarine Cables", "Outer Layer", jobs, NE_areas)
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Welcome to the MassCEC Offshore Wind Employment Dashboard! 
+
+The map on the left depicts the location quotient for individual occupations in the offshore wind sector across New England. Location quotient measures the concentration of workers in a given occupation compared to the nation as a whole. For example, if an area has a location quotient of 2 for industrial engineers, then that area employs two times as many engineers per capita as the United States does as a whole. Each tab lists the occupations necessary to manufacture specific wind farm components.
+
+Click between tabs to explore different cable components and associated occupations!
+
+
+
+
+
+
+© 2022 Salvador Balkus
 
 Nacelle
 ===================================
