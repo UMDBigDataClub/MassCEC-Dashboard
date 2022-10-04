@@ -47,13 +47,13 @@ options(tigris_use_cache = TRUE)
 
 ### Occupation Definitions ###
 
-jobs <- read_tsv(r"{C:\Users\rdbpo\Documents\BDC MassCEC\MassCEC-Dashboard\occupations.txt}")
+jobs <- read_tsv(r"{C:\Users\rdbpo\Documents\BigDataClub\MassCEC_Project\MassCEC-Dashboard\occupations.txt}")
 jobs$SOC <- as.character(jobs$SOC)
 
 ### Getting Metropolitan Area Data from Census ###
 # Usage: https://walker-data.com/tidycensus/articles/basic-usage.html
 
-census_api_key("Census API Key")
+census_api_key("9b5b6a5de8bad8c597d0eae0d350bb76595e9029")
 # Note that the BLS reports data for NECTAS in New England instead of normal Metropolitan Areas
 NE_areas <- get_decennial(geography = "new england city and town area", variables = "METDIV", year = 2020, geometry = TRUE)
 
@@ -87,7 +87,7 @@ generate_employment_map <- function(category, component, jobs, NE_areas){
       'seriesid'=id_list,
       'startyear'=2020,
       'endyear'=2020,
-      'registrationkey'='BLS API Key')
+      'registrationkey'='981268fe81cd404c94ba4991183c5325')
     
     response <- blsAPI(payload)
     json <- fromJSON(response)
@@ -167,6 +167,7 @@ Column {.tabset data-width=650}
 ### General
 
 ```{r}
+
 generate_employment_map("Towers", "General", jobs, NE_areas)
 
 ```
@@ -178,7 +179,6 @@ generate_employment_map("Towers", "General", jobs, NE_areas)
 generate_employment_map("Towers", "Tower Internals: Stairway, Ladder, Door, Platform (concrete and steel rebar), Railing, Cables", jobs, NE_areas)
 
 ```
-
 
 ### Cables Only
 
@@ -273,7 +273,6 @@ generate_employment_map("Blades", "Turbine Operation", jobs, NE_areas)
 
 ```
 
-
 ### Blade Production
 
 ```{r}
@@ -326,7 +325,6 @@ generate_employment_map("Foundation", "General", jobs, NE_areas)
 generate_employment_map("Foundation", "Jacket ( Steel Lattice, Transition section, Legs, Braces, Nodes, Pins, Integrated upper deck, Heavy wall sections)", jobs, NE_areas)
 
 ```
-
 
 ### Monopile
 
@@ -381,7 +379,6 @@ generate_employment_map("Submarine Cables", "Conductor", jobs, NE_areas)
 
 ```
 
-
 ### Insulation Layer
 
 ```{r}
@@ -425,8 +422,271 @@ Click between tabs to explore different cable components and associated occupati
 Nacelle
 ===================================
 
+Column {.tabset data-width=650}
+-----------------------------------------------------------------------
+
+### General
+
+```{r}
+generate_employment_map("Nacelle", "General", jobs, NE_areas)
+
+```
+
+### Nacelle Cover
+
+```{r}
+
+generate_employment_map("Nacelle", "Covers", jobs, NE_areas)
+
+```
+
+### Nacelle Cover (Steel)
+
+```{r}
+
+generate_employment_map("Nacelle", "Cover Steel", jobs, NE_areas)
+
+```
+
+### Rotor Hub
+
+```{r}
+
+generate_employment_map("Nacelle", "Rotor Hub", jobs, NE_areas)
+
+```
+
+### Speed Shafts
+
+```{r}
+
+generate_employment_map("Nacelle", "Shafts", jobs, NE_areas)
+
+```
+
+### Hydraulic Pitch System
+
+```{r}
+
+generate_employment_map("Nacelle", "Hydraulic Pitch", jobs, NE_areas)
+
+```
+
+### Electric Pitch System
+
+```{r}
+
+generate_employment_map("Nacelle", "Electric Pitch", jobs, NE_areas)
+
+```
+
+### General Generators
+
+```{r}
+
+generate_employment_map("Nacelle", "Generators", jobs, NE_areas)
+
+```
+
+### Armature System
+
+```{r}
+
+generate_employment_map("Nacelle", "Armature", jobs, NE_areas)
+
+```
+
+### Rotor & Stator
+
+```{r}
+
+generate_employment_map("Nacelle", "Rotors", jobs, NE_areas)
+
+```
+
+### Electric Generator
+
+```{r}
+
+generate_employment_map("Nacelle", "Electric Generator", jobs, NE_areas)
+
+```
+
+### Castings & Forgings
+
+```{r}
+
+generate_employment_map("Nacelle", "Castings", jobs, NE_areas)
+
+```
+
+### Bearings
+
+```{r}
+
+generate_employment_map("Nacelle", "Bearings", jobs, NE_areas)
+
+```
+
+### Gears
+
+```{r}
+
+generate_employment_map("Nacelle", "Gears", jobs, NE_areas)
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Welcome to the MassCEC Offshore Wind Employment Dashboard! 
+
+The map on the left depicts the location quotient for individual occupations in the offshore wind sector across New England. Location quotient measures the concentration of workers in a given occupation compared to the nation as a whole. For example, if an area has a location quotient of 2 for industrial engineers, then that area employs two times as many engineers per capita as the United States does as a whole. Each tab lists the occupations necessary to manufacture specific wind farm components.
+
+Click between tabs to explore different cable components and associated occupations!
+
+
+
+
+
+
+© 2022 Salvador Balkus
+
 Substations
 ===================================
 
+Column {.tabset data-width=650}
+-----------------------------------------------------------------------
+
+### General
+
+```{r}
+generate_employment_map("Substations", "General", jobs, NE_areas)
+
+```
+
+### Jacket Foundation
+
+```{r}
+
+generate_employment_map("Substations", "Jacket Foundation", jobs, NE_areas)
+
+```
+
+### Jacket Coating
+
+```{r}
+
+generate_employment_map("Substations", "Jacket Coating", jobs, NE_areas)
+
+```
+
+### Transition Pieces
+
+```{r}
+
+generate_employment_map("Substations", "Pieces", jobs, NE_areas)
+
+```
+
+### Transition Coating
+
+```{r}
+
+generate_employment_map("Substations", "Transition Coating", jobs, NE_areas)
+
+```
+
+### Transition Electrical System
+
+```{r}
+
+generate_employment_map("Substations", "Transition Electrical", jobs, NE_areas)
+
+```
+
+### Structual Steel Decks
+
+```{r}
+
+generate_employment_map("Substations", "Decks", jobs, NE_areas)
+
+```
+
+### Structual Steel Coating
+
+```{r}
+
+generate_employment_map("Substations", "Steel Coating", jobs, NE_areas)
+
+```
+
+### Structual Steel Sensors
+
+```{r}
+
+generate_employment_map("Substations", "Sensors", jobs, NE_areas)
+
+```
+
+### Equipment Deck Structure
+
+```{r}
+
+generate_employment_map("Substations", "Structure", jobs, NE_areas)
+
+```
+
+### Equipment Deck Electrical System
+
+```{r}
+
+generate_employment_map("Substations", "Deck Electrical", jobs, NE_areas)
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Welcome to the MassCEC Offshore Wind Employment Dashboard! 
+
+The map on the left depicts the location quotient for individual occupations in the offshore wind sector across New England. Location quotient measures the concentration of workers in a given occupation compared to the nation as a whole. For example, if an area has a location quotient of 2 for industrial engineers, then that area employs two times as many engineers per capita as the United States does as a whole. Each tab lists the occupations necessary to manufacture specific wind farm components.
+
+Click between tabs to explore different cable components and associated occupations!
+
+
+
+
+
+
+© 2022 Salvador Balkus
+
 Vessels
 ===================================
+
+Column {.tabset data-width=650}
+-----------------------------------------------------------------------
+
+### All Vessels
+
+```{r}
+
+generate_employment_map("Vessels", "All", jobs, NE_areas)
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Welcome to the MassCEC Offshore Wind Employment Dashboard! 
+
+The map on the left depicts the location quotient for individual occupations in the offshore wind sector across New England. Location quotient measures the concentration of workers in a given occupation compared to the nation as a whole. For example, if an area has a location quotient of 2 for industrial engineers, then that area employs two times as many engineers per capita as the United States does as a whole. Each tab lists the occupations necessary to manufacture specific wind farm components.
+
+Click between tabs to explore different cable components and associated occupations!
+
+
+
+
+
+
+© 2022 Salvador Balkus

@@ -148,3 +148,254 @@ Armor Layer",514121,"Welders, Cutters, Solderers, and Brazers",Welder
 Submarine Cables,Outer Layer,514021,"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",Cable Machine Operator
 Submarine Cables,Outer Layer,172131,Materials Engineer,Composite Materials Engineer
 Submarine Cables,Outer Layer,172041,Chemical Engineers,Cable Cover Engineer
+Nacelle,General,173026,Industrial Engineering Technologists and Technicians,Quality Control/Production Assistant
+Nacelle,General,113051,Industrial Production Managers,Quality Control Manager
+Nacelle,General,511011,First-Line Supervisors of Production and Operating Workers,Nacelle Production Manager
+Nacelle,General,519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Nacelle Quality Inspector
+Nacelle,General,537021,Crane and Tower Operators,Crane Operator and Crane Engineer / Heavy Lift Specialist / Senior Lifting Engineer
+Nacelle,Covers,172131,Materials Engineer,Fiber Glass Technician / Nacelle Design Engineer
+Nacelle,Covers,512051,Fiberglass Laminators and Fabricators,Materials Scientist / Nacelle Design Engineer
+Nacelle,Cover Steel,472221,Structural Iron and Steel Workers,Steel Worker / Nacelle Structue Engineer
+Nacelle,Cover Steel,512041,Structural Metal Fabricators and Fitters,Nacelle Structue Engineer / Structural Engineer
+Nacelle,Rotor Hub,514072,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",Hub Casting Machinist
+Nacelle,Rotor Hub,519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Non Destructive Tester (NDT) / Hub Test Engineer / Hub Inspector
+Nacelle,Rotor Hub,514033,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Metal Grinder / Surface Engineer
+Nacelle,Rotor Hub,519124,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",Specialist Coating Technician
+Nacelle,Rotor Hub,514193,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",Blasting Technician
+Nacelle,Shafts,514072,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",Casting Machinist
+Nacelle,Shafts,514033,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Metal Grinder / Surface Engineer
+Nacelle,Shafts,172141,Mechanical Engineers,Design Engineer / Mechanical Engineer / Nacelle Engineer
+Nacelle,Hydraulic Pitch,172051,Civil Engineer,Hydraulics Engineer / Pitch System Engineer / Civil Engineer / Nacelle Engineer
+Nacelle,Hydraulic Pitch,173022,Civil Engineering Technologists and Technicians,Civil Engineer Technician / Assistant Nacelle Engineer
+Nacelle,Hydraulic Pitch,172141,Mechanical Engineers,Hydrualics Engineer / Pitch System Engineer / Mechanical Engineer / Nacelle Engineer
+Nacelle,Hydraulic Pitch,172071,Electrical Engineer,Manifold Design Engineer / Electrical Engineer / Transmission Engineer / Motor Component Engineer
+Nacelle,Hydraulic Pitch,512028,"Electrical, Electronic, and Electromechanical Assemblers, Except Coil Winders, Tapers, and Finishers",Hydrualic System Assembler / Mechanical Fitter
+Nacelle,Hydraulic Pitch,472221,Structural Iron and Steel Workers,Metal Engineer / Pitch Ring Engineer
+Nacelle,Hydraulic Pitch,514122,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Welding Machinist / Welding Engineer
+Nacelle,Electric Pitch,172071,Electrical Engineer,Electrical Engineer / Pitch System Engineer / Motor Component Engineer
+Nacelle,Electric Pitch,172072,"Electronics Engineer, Except Computer",Electrical Engineer / Pitch System Engineer / Pitch Design Engineer
+Nacelle,Electric Pitch,173023,Electrical and Electronic Engineering Technologists and Technicians,Electrical Control System Engineering Assistant / Pitch System Engineering Assistant
+Nacelle,Electric Pitch,492094,"Electrical and Electronics Repairers, Commercial and Industrial Equipment",Electric Control System Test Engineer / Electrical Inspector
+Nacelle,Electric Pitch,512028,"Electrical, Electronic, and Electromechanical Assemblers, Except Coil Winders, Tapers, and Finishers",Electrical System Assembler / Electrical Engineer Assistant / Battery Engineer
+Nacelle,Electric Pitch,514072,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",Steel Workers / Gear Engineer / Casting Engineer
+Nacelle,Electric Pitch,514012,"Computer Numerically Controlled Machine Tool Programmers, Metal and Plastic",Gear Machinist
+Nacelle,Generators,512031,Engine and Other Machine Assembler,Generator Assembler
+Nacelle,Generators,172071,Electrical Engineer,Electrical Engineer
+Nacelle,Generators,492094,"Electrical and Electronics Repairers, Commercial and Industrial Equipment","Electrical and Electronics Repairers, Commercial and Industrial Equipment"
+Nacelle,Generators,512028,"Electrical, Electronic, and Electromechanical Assemblers, Except Coil Winders, Tapers, and Finishers",Electrical Assemblers
+Nacelle,Generators,173023,Electrical and Electronic Engineering Technologists and Technicians,Electrical technician
+Nacelle,Generators,172072,"Electronics Engineer, Except Computer",Electronics engineers
+Nacelle,Generators,172141,Mechanical Engineers,
+Nacelle,Armature,172071,Electrical Engineer,Direct Drive Generator Specialist / Turbine Generator Engineer
+Nacelle,Armature,512031,Engine and Other Machine Assembler,Direct Drive Generator Assembler
+Nacelle,Armature,514051,Metal-Refining Furnace Operators and Tenders,Metal-Refiners
+Nacelle,Armature,514072,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",Poles Design Engineer /
+Nacelle,Armature,514052,"Pourers and Casters, Metal",Steel Workers / Casting Engineer
+Nacelle,Rotors,172011,Aerospace Engineers,Rotor Design Engineer / Rotordynamics Engineer / Aerospace Engineer
+Nacelle,Rotors,512021,"Coil Winders, Tapers, and Finishers",Coil Worker / Coil Specialist / Rotor Design Assistant
+Nacelle,Electric Generator,512031,Engine and Other Machine Assembler,Generator Assembler
+Nacelle,Electric Generator,172071,Electrical Engineer,Electrical Engineer
+Nacelle,Electric Generator,492094,"Electrical and Electronics Repairers, Commercial and Industrial Equipment","Electrical and Electronics Repairers, Commercial and Industrial Equipment"
+Nacelle,Electric Generator,512028,"Electrical, Electronic, and Electromechanical Assemblers, Except Coil Winders, Tapers, and Finishers",Electrical Assemblers
+Nacelle,Electric Generator,173023,Electrical and Electronic Engineering Technologists and Technicians,Electrical technician
+Nacelle,Electric Generator,172072,"Electronics Engineer, Except Computer",Electronics engineers
+Nacelle,Electric Generator,172141,Mechanical Engineers,
+Nacelle,Castings,514072,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",Steel Workers / Casting Engineer
+Nacelle,Castings,514012,"Computer Numerically Controlled Machine Tool Programmers, Metal and Plastic",CNC (computer numerical control) Machinist / Casting Engineer
+Nacelle,Castings,514122,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Welding Machinist / Welding Engineer
+Nacelle,Castings,519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Non Destructive Tester (NDT)
+Nacelle,Castings,514033,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Metal Grinder / Surface Engineer
+Nacelle,Castings,514032,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Driller
+Nacelle,Castings,514035,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",Milling Machinist
+Nacelle,Bearings,514072,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",Steel Workers / Bearing Engineer / Casting Engineer
+Nacelle,Bearings,514012,"Computer Numerically Controlled Machine Tool Programmers, Metal and Plastic",CNC (computer numerical control) Machinist / Bearing Engineer
+Nacelle,Bearings,514122,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Welding Machinist / Welding Engineer
+Nacelle,Bearings,514033,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Metal Grinder / Surface Engineer
+Nacelle,Bearings,514032,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Driller
+Nacelle,Bearings,514035,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",Milling Machinist / Bearing Engineer
+Nacelle,Gears,514072,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",Steel Workers / Gear Engineer / Casting Engineer
+Nacelle,Gears,514012,"Computer Numerically Controlled Machine Tool Programmers, Metal and Plastic",Gear Machinist
+Nacelle,Gears,514035,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",Gear Machinist
+Nacelle,Gears,514033,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",Surface Engineer
+Substations,General,537021,Crane and Tower Operators,Crane Operator and Crane Engineer / Heavy Lift Specialist / Senior Lifting Engineer
+Substations,General,113051,Industrial Production Managers,Quality Control Manager/Manufacturing Manager
+Substations,General,519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Inspector
+Substations,Jacket Foundation,173013,Mechanical Drafter,Structural Drafter
+Substations,Jacket Foundation,512041,Structural Metal Fabricators and Fitters,Steel Production Engineer
+Substations,Jacket Foundation,514031,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",Metal Cutters
+Substations,Jacket Foundation,514035,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",Milling Machinist
+Substations,Jacket Foundation,514023,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",Structural Metal Engineer
+Substations,Jacket Foundation,514121,"Welders, Cutters, Solderers, and Brazers",Welder
+Substations,Jacket Foundation,514122,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Welding Machinist / Welding Engineer
+Substations,Jacket Foundation,519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Ultrasonic Welding Tester
+Substations,Jacket Coating,172131,Materials Engineer,Composite Materials Engineer
+Substations,Jacket Coating,519124,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",Specialist coating technician (applier)
+Substations,Jacket Coating,514193,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",Blasting technician (applier)
+Substations,Pieces,173013,Mechanical Drafter,Drafting Engineer
+Substations,Pieces,512041,Structural Metal Fabricators and Fitters,Steel Production Engineer
+Substations,Pieces,514031,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",Metal Cutters
+Substations,Pieces,514035,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",Milling Machinist
+Substations,Pieces,514023,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",Structural Metal Engineer
+Substations,Pieces,514121,"Welders, Cutters, Solderers, and Brazers",Welder
+Substations,Pieces,514122,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Welding Machinist / Welding Engineer
+Substations,Pieces,519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Ultrasonic Welding Tester
+Substations,Transition Coating,172131,Materials Engineer,Composite Materials Engineer
+Substations,Transition Coating,519124,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",Specialist coating technician (applier)
+Substations,Transition Coating,514193,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",Blasting technician (applier)
+Substations,Transition Electrical,172071,Electrical Engineer,Electrical Engineer
+Substations,Transition Electrical,172072,"Electronics Engineer, Except Computer",Electronics Engineer
+Substations,Transition Electrical,173023,Electrical and Electronic Engineering Technologists and Technicians,Electrical Engineering Assistant
+Substations,Transition Electrical,492094,"Electrical and Electronics Repairers, Commercial and Industrial Equipment",Electrical Equipment Testers
+Substations,Transition Electrical,113021,Computer and Information Systems Managers,Control Systems Engineer
+Substations,Decks,173013,Mechanical Drafter,Structural Drafter
+Substations,Decks,512041,Structural Metal Fabricators and Fitters,Steel Production Engineer
+Substations,Decks,514031,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",Metal Cutters
+Substations,Decks,514035,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",Milling Machinist
+Substations,Decks,514121,"Welders, Cutters, Solderers, and Brazers",Welder
+Substations,Decks,514122,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Welding Machinist / Welding Engineer
+Substations,Steel Coating,172131,Materials Engineer,Composite Materials Engineer
+Substations,Steel Coating,519124,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",Specialist coating technician (applier)
+Substations,Steel Coating,514193,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",Blasting technician (applier)
+Substations,Sensors,113021,Computer and Information Systems Managers,Control Systems Engineer
+Substations,Structure,173022,Civil Engineering Technologists and Technicians,Civil Engineer Technician
+Substations,Structure,172051,Civil Engineer,Civil Engineer
+Substations,Structure,173013,Mechanical Drafter,Drafter
+Substations,Structure,172141,Mechanical Engineers,Mechanical Engineer
+Substations,Structure,512041,Structural Metal Fabricators and Fitters,Strucutural metal fabricators
+Substations,Structure,514031,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",Metal Cutters
+Substations,Structure,514035,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",Milling Machinist
+Substations,Structure,514023,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",Rolling Machine Setters
+Substations,Structure,514121,"Welders, Cutters, Solderers, and Brazers",Welder
+Substations,Structure,514122,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",Welding Machinist / Welding Engineer
+Substations,Structure,519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",Platform Structure Inspection
+Substations,Deck Electrical,172071,Electrical Engineer,Electrical Engineer
+Substations,Deck Electrical,172072,"Electronics Engineer, Except Computer",Electronics engineers
+Substations,Deck Electrical,173023,Electrical and Electronic Engineering Technologists and Technicians,Electrical technician
+Substations,Deck Electrical,492094,"Electrical and Electronics Repairers, Commercial and Industrial Equipment",Electrical Equipment Testers
+Substations,Deck Electrical,492095,"Electrical and Electronics Repairers, Powerhouse, Substation, and Relay",Electrical and Electronics Inspector
+Substations,Deck Electrical,113021,Computer and Information Systems Managers,Control Systems Engineer
+Vessels,All,172000,Engineers,
+Vessels,All,172070,Electrical and Electronics Engineers,
+Vessels,All,172072,"Electronics Engineers, Except Computer",
+Vessels,All,172081,Environmental Engineers,
+Vessels,All,172110,"Industrial Engineers, Including Health and Safety",
+Vessels,All,172111,"Health and Safety Engineers, Except Mining Safety Engineers and Inspectors",
+Vessels,All,172112,Industrial Engineers,
+Vessels,All,172121,Marine Engineers and Naval Architects,
+Vessels,All,172141,Mechanical Engineers,
+Vessels,All,172199,"Engineers, All Other",
+Vessels,All,173000,"Drafters, Engineering Technicians, and Mapping Technicians",
+Vessels,All,173010,Drafters,
+Vessels,All,173013,Mechanical Drafters,
+Vessels,All,173019,"Drafters, All Other",
+Vessels,All,173020,"Engineering Technologists and Technicians, Except Drafters",
+Vessels,All,173023,Electrical and Electronic Engineering Technologists and Technicians,
+Vessels,All,173026,Industrial Engineering Technologists and Technicians,
+Vessels,All,173027,Mechanical Engineering Technologists and Technicians,
+Vessels,All,173098,"Calibration Technologists and Technicians and Engineering Technologists and Technicians, Except Drafters, All Other",
+Vessels,All,190000,"Life, Physical, and Social Science Occupations",
+Vessels,All,192000,Physical Scientists,
+Vessels,All,195010,Occupational Health and Safety Specialists and Technicians,
+Vessels,All,195011,Occupational Health and Safety Specialists,
+Vessels,All,195012,Occupational Health and Safety Technicians,
+Vessels,All,470000,Construction and Extraction Occupations,
+Vessels,All,471011,First-Line Supervisors of Construction Trades and Extraction Workers,
+Vessels,All,472000,Construction Trades Workers,
+Vessels,All,472011,Boilermakers,
+Vessels,All,472031,Carpenters,
+Vessels,All,472070,Construction Equipment Operators,
+Vessels,All,472073,Operating Engineers and Other Construction Equipment Operators,
+Vessels,All,472111,Electricians,
+Vessels,All,472130,Insulation Workers,
+Vessels,All,472132,"Insulation Workers, Mechanical",
+Vessels,All,472140,Painters and Paperhangers,
+Vessels,All,472141,"Painters, Construction and Maintenance",
+Vessels,All,472150,"Pipelayers, Plumbers, Pipefitters, and Steamfitters",
+Vessels,All,472152,"Plumbers, Pipefitters, and Steamfitters",
+Vessels,All,472211,Sheet Metal Workers,
+Vessels,All,472221,Structural Iron and Steel Workers,
+Vessels,All,473010,"Helpers, Construction Trades",
+Vessels,All,473012,Helpers--Carpenters,
+Vessels,All,473013,Helpers--Electricians,
+Vessels,All,473015,"Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters",
+Vessels,All,473019,"Helpers, Construction Trades, All Other",
+Vessels,All,490000,"Installation, Maintenance, and Repair Occupations",
+Vessels,All,491011,"First-Line Supervisors of Mechanics, Installers, and Repairers",
+Vessels,All,492000,"Electrical and Electronic Equipment Mechanics, Installers, and Repairers",
+Vessels,All,492020,Radio and Telecommunications Equipment Installers and Repairers,
+Vessels,All,492090,"Miscellaneous Electrical and Electronic Equipment Mechanics, Installers, and Repairers",
+Vessels,All,492093,"Electrical and Electronics Installers and Repairers, Transportation Equipment",
+Vessels,All,492094,"Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+Vessels,All,493000,"Vehicle and Mobile Equipment Mechanics, Installers, and Repairers",
+Vessels,All,493031,Bus and Truck Mechanics and Diesel Engine Specialists,
+Vessels,All,493050,Small Engine Mechanics,
+Vessels,All,493051,Motorboat Mechanics and Service Technicians,
+Vessels,All,499000,"Other Installation, Maintenance, and Repair Occupations",
+Vessels,All,499021,"Heating, Air Conditioning, and Refrigeration Mechanics and Installers",
+Vessels,All,499040,"Industrial Machinery Installation, Repair, and Maintenance Workers",
+Vessels,All,499041,Industrial Machinery Mechanics,
+Vessels,All,499043,"Maintenance Workers, Machinery",
+Vessels,All,499044,Millwrights,
+Vessels,All,499071,"Maintenance and Repair Workers, General",
+Vessels,All,499090,"Miscellaneous Installation, Maintenance, and Repair Workers",
+Vessels,All,499096,Riggers,
+Vessels,All,499098,"Helpers--Installation, Maintenance, and Repair Workers",
+Vessels,All,499099,"Installation, Maintenance, and Repair Workers, All Other",
+Vessels,All,510000,Production Occupations,
+Vessels,All,511011,First-Line Supervisors of Production and Operating Workers,
+Vessels,All,512000,Assemblers and Fabricators,
+Vessels,All,512020,"Electrical, Electronics, and Electromechanical Assemblers",
+Vessels,All,512028,"Electrical, Electronic, and Electromechanical Assemblers, Except Coil Winders, Tapers, and Finishers",
+Vessels,All,512031,Engine and Other Machine Assemblers,
+Vessels,All,512041,Structural Metal Fabricators and Fitters,
+Vessels,All,512051,Fiberglass Laminators and Fabricators,
+Vessels,All,512090,Miscellaneous Assemblers and Fabricators,
+Vessels,All,514000,Metal Workers and Plastic Workers,
+Vessels,All,514020,"Forming Machine Setters, Operators, and Tenders, Metal and Plastic",
+Vessels,All,514021,"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",
+Vessels,All,514023,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",
+Vessels,All,514030,"Machine Tool Cutting Setters, Operators, and Tenders, Metal and Plastic",
+Vessels,All,514031,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",
+Vessels,All,514032,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
+Vessels,All,514033,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
+Vessels,All,514035,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",
+Vessels,All,514041,Machinists,
+Vessels,All,514060,"Model Makers and Patternmakers, Metal and Plastic",
+Vessels,All,514070,"Molders and Molding Machine Setters, Operators, and Tenders, Metal and Plastic",
+Vessels,All,514072,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",
+Vessels,All,514081,"Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
+Vessels,All,514111,Tool and Die Makers,
+Vessels,All,514120,"Welding, Soldering, and Brazing Workers",
+Vessels,All,514121,"Welders, Cutters, Solderers, and Brazers",
+Vessels,All,514122,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",
+Vessels,All,514190,Miscellaneous Metal Workers and Plastic Workers,
+Vessels,All,514191,"Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",
+Vessels,All,514192,"Layout Workers, Metal and Plastic",
+Vessels,All,514194,"Tool Grinders, Filers, and Sharpeners",
+Vessels,All,516000,"Textile, Apparel, and Furnishings Workers",
+Vessels,All,516031,Sewing Machine Operators,
+Vessels,All,516060,"Textile Machine Setters, Operators, and Tenders",
+Vessels,All,516062,"Textile Cutting Machine Setters, Operators, and Tenders",
+Vessels,All,516090,"Miscellaneous Textile, Apparel, and Furnishings Workers",
+Vessels,All,516093,Upholsterers,
+Vessels,All,517000,Woodworkers,
+Vessels,All,517011,Cabinetmakers and Bench Carpenters,
+Vessels,All,517040,"Woodworking Machine Setters, Operators, and Tenders",
+Vessels,All,517042,"Woodworking Machine Setters, Operators, and Tenders, Except Sawing",
+Vessels,All,518000,Plant and System Operators,
+Vessels,All,519000,Other Production Occupations,
+Vessels,All,519020,"Crushing, Grinding, Polishing, Mixing, and Blending Workers",
+Vessels,All,519021,"Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",
+Vessels,All,519022,"Grinding and Polishing Workers, Hand",
+Vessels,All,519030,Cutting Workers,
+Vessels,All,519032,"Cutting and Slicing Machine Setters, Operators, and Tenders",
+Vessels,All,519061,"Inspectors, Testers, Sorters, Samplers, and Weighers",
+Vessels,All,519120,Painting Workers,
+Vessels,All,519123,"Painting, Coating, and Decorating Workers",
+Vessels,All,519124,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",
+Vessels,All,519160,Computer Numerically Controlled Tool Operators and Programmers,
+Vessels,All,519161,Computer Numerically Controlled Tool Operators,
+Vessels,All,519162,Computer Numerically Controlled Tool Programmers,
+Vessels,All,519190,Miscellaneous Production Workers,
+Vessels,All,519198,Helpers--Production Workers,
+Vessels,All,519199,"Production Workers, All Other",
